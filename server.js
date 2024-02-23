@@ -31,9 +31,9 @@ console.log('reconnecting:', error)
 
 client.on('connect', (e) => {
     sendData();
-    setTimeout(()=>{
+    setInterval(()=>{
         sendData();
-    },5000)
+    },1000)
 })
 
 client.on('error', (error) => {
@@ -47,7 +47,7 @@ function sendData() {
     data.flowrate.push(random(20,240));
     data.pressure.push(random(0,200));
     data.temperature.push(random(0,100));
-    client.publish('data', data)
+    client.publish('data', JSON.stringify(data))
 }
 
 const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
