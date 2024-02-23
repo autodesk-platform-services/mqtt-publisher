@@ -7,8 +7,6 @@
 
 [Autodesk Platform Services](https://aps.autodesk.com) application built to demonstrate publishing data to MQTT broker, which can be consumed by any subscriber.
 
-This sample is built on top of [aps-iot-extensions-demo](https://github.com/autodesk-platform-services/aps-iot-extensions-demo), for context and full explaination please read [this blog](https://aps.autodesk.com/blog/stream-iot-data-mqtt-broker-digital-twin).
-
 ## Development
 
 ### Prerequisites
