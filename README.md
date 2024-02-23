@@ -11,7 +11,6 @@
 
 ### Prerequisites
 
-- [APS credentials](https://forge.autodesk.com/en/docs/oauth/v2/tutorials/create-app)
 - [Node.js](https://nodejs.org) (we recommend the Long Term Support version)
 - Terminal (for example, [Windows Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe)
 or [macOS Terminal](https://support.apple.com/guide/terminal/welcome/mac))
